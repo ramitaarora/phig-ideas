@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+main {
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#facts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#facts p {
+    width: 150px;
+    background-color: rgb(72, 192, 72);
+    color: white;
+    overflow: hidden;
+    border-radius: 15px;
+    font-size: 80%;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+#facts p:hover {
+    position: relative;
+    top: -5px;
+    font-size: 90%;
+    background-color: rgb(31, 141, 31);
+}
+
+#summary {
+    width: 50%;
+    margin: 30px auto;
+}
